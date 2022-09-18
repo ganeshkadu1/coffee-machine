@@ -20,7 +20,3 @@ while not SHUT_DOWN:
         if coffee_maker.is_resource_sufficient(menu_item):
            if money_machine.make_payment(menu_item.cost):
                 coffee_maker.make_coffee(menu_item)
-
-
-
-
